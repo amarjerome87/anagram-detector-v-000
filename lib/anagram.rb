@@ -10,7 +10,7 @@ end
 
 def match(array)
 word_array = @word.split(" ")
-array
+
   binding.pry
 
 end
