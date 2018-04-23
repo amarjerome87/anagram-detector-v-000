@@ -13,7 +13,7 @@ word_array = @word.split("")
 updated_array = array.join.split("// ")
 updated_array.collect do |leters|
   if word_array.sort == updated_array.sort
-    return array
+     
   else
     array.clear
   end
