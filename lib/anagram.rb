@@ -11,7 +11,6 @@ end
 def match(array)
 word_array = @word.split("")
 updated_array = array.sort {|new_word| }
- binding.pry
 
 end
 
