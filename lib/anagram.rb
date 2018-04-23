@@ -11,7 +11,7 @@ end
 def match(array)
 word_array = @word.split("")
 # updated_array = array.join.split("// ")
-array.collect  {|words|word_array.sort == words.sort}
+array.collect  {|words|}
 binding.pry
 
 
