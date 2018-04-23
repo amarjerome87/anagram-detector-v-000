@@ -10,8 +10,8 @@ end
 
 def match(array)
 word_array = @word.split("")
-array.collect {|new_word| new_word = word_array binding.pry}
-
+updated_array = array.sort {|new_word| }
+ binding.pry
 
 end
 
