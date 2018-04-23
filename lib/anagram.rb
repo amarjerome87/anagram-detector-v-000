@@ -9,6 +9,7 @@ end
 
 def match(array)
 word_array = @word.split(" ")
+binding.pry
 
 end
 
