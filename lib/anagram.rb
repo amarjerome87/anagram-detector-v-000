@@ -10,7 +10,6 @@ end
 
 def match(array)
 word_array = @word.split("")
-binding.pry
 array.find_all {|new_word| new_word.split.sort == word_array.sort}
 
 
