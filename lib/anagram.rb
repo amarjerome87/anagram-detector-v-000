@@ -13,16 +13,6 @@ word_array = @word.split(" ")
 
   binding.pry
 
-end
-
-end
-
-
-
-
-
-
-
 
 
 end
