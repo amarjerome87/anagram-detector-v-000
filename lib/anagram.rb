@@ -10,7 +10,7 @@ end
 
 def match(array)
 word_array = @word.split(" ")
-array.collect do |words| word_array.sort == words.sort
+array.collect do |words| word_array == words
   binding.pry
 end
 end
