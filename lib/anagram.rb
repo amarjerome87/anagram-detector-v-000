@@ -10,7 +10,8 @@ end
 
 def match(array)
 word_array = @word.split("")
-updated_array = array.sort {|new_word| }
+array.collect {|new_word| new_word.split.sort == word_array.join.split.sort}
+
 
 end
 
