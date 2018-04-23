@@ -11,8 +11,8 @@ end
 def match(array)
 word_array = @word.split("")
 updated_array = array.join.split("// ")
-matched = updated_array.collect{|leters|word_array.sort == updated_array.sort}
-matched 
+matched = updated_array.detect{|leters|word_array.sort == updated_array.sort}
+matched
 end
 
 end
