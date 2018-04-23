@@ -9,7 +9,7 @@ def initialize(word)
 end
 
 def match(array)
-word_array = @word.split(" ")
+word_array = @word.split("")
 binding.pry
 end
 
