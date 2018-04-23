@@ -12,7 +12,7 @@ def match(array)
 word_array = @word.split("")
 updated_array = array.join.split("// ")
 updated_array.collect do |leters|
-   word_array.sort == updated_array.sort
+   word_array.sort == letters.sort
 end
 
 end
