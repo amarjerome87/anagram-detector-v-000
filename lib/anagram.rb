@@ -11,8 +11,9 @@ end
 def match(array)
 word_array = @word.split(" ")
 array.collect do |words| word_array.sort == words.sort
+  binding.pry
 end
-end 
+end
 
 end
 
