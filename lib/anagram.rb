@@ -9,7 +9,8 @@ def initialize(word)
 end
 
 def match(array)
-array.find_all {|new_word| new_word.split.sort == @word.join.split.sort}
+word_array = @word.split("")
+array.find_all {|new_word| new_word.split.sort == word_array.join.split.sort binding.pry}
 
 
 end
