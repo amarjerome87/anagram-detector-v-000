@@ -10,10 +10,9 @@ end
 
 def match(array)
 word_array = @word.split("")
-# updated_array = array.join.split("// ")
-array.collect  {|letters|binding.pry
-}
-
+updated_array = array.join.split("// ")
+binding.pry
+end
 
 end
 
