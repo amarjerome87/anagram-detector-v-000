@@ -1,11 +1,16 @@
 # Your code goes here!
-class anagram
+class Anagram
 
-attr_accessor :word 
+attr_accessor :word
 
 def initialize(word)
-  @word = word 
-end 
+  @word = word
+end
+
+def match(array)
+word_array = @word.split(" ")
+
+end
 
 
 
@@ -15,6 +20,4 @@ end
 
 
 
-
-
-end 
+end
